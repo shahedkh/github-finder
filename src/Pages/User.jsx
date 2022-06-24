@@ -42,8 +42,6 @@ function User() {
     return <Spinner />
   }
 
-  // NOTE: check for valid url to users website
-
   const websiteUrl = blog?.startsWith('http') ? blog : 'https://' + blog
 
   return (
